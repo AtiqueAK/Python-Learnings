@@ -12,7 +12,9 @@ print(math.sqrt(16))  # Output: 4.0
 #random module
 import random
 print(random.randint(1, 10))  # Output: a random integer between 1 and 10
-random.shuffle([1, 2, 3, 4, 5])  # Output: a shuffled version of the list
+nums = [1, 2, 3, 4, 5]
+random.shuffle(nums)
+print(nums)# Output: a shuffled version of the list
 #time module
 import time
 print(time.time())  # Output: current time in seconds since the epoch
